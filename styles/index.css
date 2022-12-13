@@ -5,6 +5,7 @@
   grid-auto-rows: minmax(50px, auto);
   grid-auto-columns: minmax(50px, auto);
   background-color: red;
+  width: 100%;
 }
 
 .item {
@@ -20,6 +21,12 @@
 nav {
   display: inline;
   color: #f9f9f9;
+}
+
+#item-1 nav input{
+  padding: 10px;
+  width: 30%;
+  margin-left: 15rem;
 }
 nav p {
   display: inline-flex;

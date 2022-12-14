@@ -145,6 +145,39 @@
 .nested {
   padding: 15px;
 }
+#sec-bottom{
+  color: rgba(28, 28, 28, 0.767);
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sec-icon{
+    display: inline-flex;
+    padding-top: 16px;
+}
+.sec-image{
+  display: inline-flex;
+  padding: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #item-6 {
   background-image: url("/Images/background-2.jpeg");

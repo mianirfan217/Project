@@ -1,156 +1,153 @@
 .container {
   /* display: grid; */
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 12px;
-  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 2px;
+  /* grid-auto-rows: minmax(50px, auto); */
   grid-auto-columns: minmax(50px, auto);
-  background-color: red;
+  background-color: white
 }
 
-.item {
-  border: 3px solid black;
+.navbar {
   border-radius: 3px;
   padding: 1.5rem;
+  background-color: black
+
 }
 
-#item-1 {
+#header {
   grid-column-start: 1;
   grid-column-end: 6;
 }
-nav {
+
+#header nav {
   display: inline;
-  color: #f9f9f9;
+  color: white;
 }
-nav p {
+#header input{
+  padding: 10px;
+  margin-left: 20rem;
+  width: 25%;
+}
+#header nav p {
   display: inline-flex;
 }
-nav ul {
+#header nav ul {
   display: inline-flex;
   float: right;
 }
-nav ul li {
+#header nav ul li {
   display: flex;
   padding: 0 16px;
 }
 
-nav ul li a {
+#header nav ul li a {
   text-decoration: none;
-  color: #f9f9f9;
+  color: white;
+  font-weight: bold;
 }
 
-#item-2 {
+.section-top {
   grid-column-start: 1;
   grid-column-end: 6;
   text-align: center;
   font-weight: bolder;
-  color:black;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-repeat: no-repeat;
   height: 200px;
-
   border: 0px;
   padding-top: 20%;
   background-image: url("/Images/b-1.jpeg");
 }
 
-#item-2 a{
+#background a {
   text-decoration: none;
   color: white;
   background-color: rgb(75, 207, 75);
   font-weight: lighter;
   font-size: 1rem;
   padding: 6px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
 }
 
-#item-2 a:hover {
+#background a:hover {
   color: blueviolet;
 }
 
-#item-3 {
+.section-mid {
   grid-column-start: 1;
   grid-column-end: 6;
 }
 
-.item-container {
+#nested-items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0px;
- 
 }
-.nested {
-  border: 3px greenyellow solid;
-  border-radius: 3px;
-  background-color: lightgoldenrodyellow;
+.nested-a {
   padding: 15px;
 }
-.nested h1{
+.nested-a h1 {
   color: blue;
 }
-.nested p{
+.nested-a p {
   color: blueviolet;
 }
-.nested a{
+.nested-a a {
   text-decoration: none;
   color: white;
   background-color: rgb(75, 207, 75);
   font-weight: lighter;
   font-size: 1rem;
   padding: 6px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
 }
-.nested a:hover{
+.nested-a a:hover {
+  color: blueviolet;
+}
+.nested-b img{
+  width: 90%;
+  height: 200px;
+  padding-left: 23px;
+  background-color: #f9f9f9;
+}
+
+.section-center{
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.section-center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+  background-color: lightgrey;
+}
+.center {
+  padding: 1rem;
+}
+.center h1{
+  color: green;
+}
+.center h3{
   color: blueviolet;
 }
 
-
-
-
-#item-4 {
+.section-bottom {
   grid-column-start: 1;
   grid-column-end: 6;
-}
-
-.item-container-2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
-
-}
-.nested {
-  border: 3px greenyellow solid;
-  border-radius: 3px;
-  background-color: lightgoldenrodyellow;
-  /* padding-top: 25px; */
-}
-.nested h3{
-  padding-top: 15%;
-}
-
-#item-5 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  /* grid-row-start:1;
-  grid-row-end: 3; */
-}
-
-.item-container-3 {
-  display: grid;
- grid-template-columns: 50% 50%;
-
+  grid-template-columns: 50% 50%;
   grid-gap: 5px;
 }
 .nested {
-  border: 3px greenyellow solid;
-  border-radius: 3px;
-  background-color: lightgoldenrodyellow;
   padding: 15px;
 }
 
 #item-6 {
-background-image: url("/Images/background-2.jpeg");
+  background-image: url("/Images/background-2.jpeg");
   grid-column-start: 1;
   grid-column-end: 6;
   height: 200px;

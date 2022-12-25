@@ -1,8 +1,6 @@
 .container {
-  /* display: grid; */
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 2px;
-  /* grid-auto-rows: minmax(50px, auto); */
   grid-auto-columns: minmax(50px, auto);
   background-color: white;
 }
@@ -49,8 +47,6 @@
 }
 
 .section-top {
-  grid-column-start: 1;
-  grid-column-end: 6;
   text-align: center;
   font-weight: bolder;
   color: black;
@@ -59,7 +55,8 @@
   height: 200px;
   border: 0px;
   padding-top: 20%;
-  background-image: url("C:Users/Hp/Downloads/Project/Images/b-1.jpeg");
+  margin-bottom: 16px;
+  background-image: url("/Images/b-1.png");
 }
 
 #background a {
@@ -123,32 +120,29 @@
 
 .section-center {
   padding: 0px 5% 0px 5%;
-  /* grid-column-start: 1;
-  grid-column-end: 6; */
   display: grid;
   grid-row: 2;
-grid-column: 1;
+  grid-column: 1;
   grid-gap: 2px;
   background-color: lightgrey;
 }
-.section-center-heading{
+.section-center-heading {
   grid-column-start: 1;
   grid-column-end: 1;
-  grid-row:1/2;
+  grid-row: 1/2;
   height: 2.5rem;
-
 }
-.section-center-discription{
+.section-center-discription {
   grid-column-start: 1;
   grid-column-end: 1;
-  grid-row:2/3;
+  grid-row: 2/3;
 }
-.section-center-discription-container{
+.section-center-discription-container {
   display: grid;
   grid-column: 3;
 }
-.section-center-discription-container{
- display: inline-flex;
+.section-center-discription-container {
+  display: inline-flex;
 }
 .center {
   padding: 1rem;
@@ -216,8 +210,6 @@ grid-column: 1;
   height: 0rem;
 }
 .container-article {
-  /* display: flex; */
-  /* flex-direction: column;  */
   padding-left: 29px;
 }
 .sec-icon img {
@@ -229,9 +221,7 @@ grid-column: 1;
   width: 8.5rem;
 }
 .image-section {
-  background-image: url("C:Users/Hp/Downloads/Project/Images/background-2.jpeg");
-  grid-column-start: 1;
-  grid-column-end: 6;
+  background-image: url("/Images/background-2.png");
   height: 200px;
   text-align: center;
   color: #f9f9f9;
@@ -276,9 +266,8 @@ grid-column: 1;
   text-decoration: none;
   padding: 8px 32px 7px 13px;
   font-size: 31px;
-    width: 9px;
-    border-radius: 38px;
-    
+  width: 9px;
+  border-radius: 38px;
 }
 .footer a {
   display: inline;
@@ -296,18 +285,18 @@ grid-column: 1;
 .footer a:hover {
   color: blue;
 }
-.gmail{
-  height: 29px!important;
-    width: 7px!important;
-    padding: 8px 35px 9px 16px!important;
-    font-size: 22px !important;
+.gmail {
+  height: 29px !important;
+  width: 7px !important;
+  padding: 8px 35px 9px 16px !important;
+  font-size: 22px !important;
 }
-.fa-facebook{
+.fa-facebook {
   padding: 0px 0px 3px 6px !important;
 }
-.fa-globe{
+.fa-globe {
   font-size: 7rem !important;
 }
-.fa-pencil-square-o{
+.fa-pencil-square-o {
   font-size: 7rem !important;
 }

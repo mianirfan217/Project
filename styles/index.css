@@ -238,13 +238,6 @@
   font-weight: bold;
   font-size: 1rem;
 }
-.text-2 {
-  /* position: inherit; */
-  /* top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%); */
-}
-
 .footer {
   grid-template-columns: 2fr 1fr;
   color: #f9f9f9;
